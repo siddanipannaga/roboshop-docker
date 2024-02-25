@@ -22,6 +22,8 @@ services:
     - catalogue
 
   redis:
+    image: redis
+     
 
 
   user:
