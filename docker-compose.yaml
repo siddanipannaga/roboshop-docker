@@ -47,3 +47,9 @@ services:
   mysql:
     container_name: mysql
     image: mysql:1
+
+  shipping:
+    container_name: shipping
+    image: shipping:1
+    depends_on:
+    - mysql
